@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+body{
+
+    margin: 0px;
+    background-color:#fbbc02;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    font-family: 'SoDo Sans',Helvetica,Arial,sans-serif;
+}
+
+.foto{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+.panelDeRegistro{
+    background-color: white;
+    width: 400px;
+    height: 375px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 4px 2px rgba(0, 0, 0,1);
+}
+h2{
+    text-align: center;
+}
+.camposDeRegistro{
+    display: flex;
+    padding-left:50px;
+}
+.campoDeNombre,.campoDeEmail,.campoContra{
+    display: flex;
+    justify-content: space-between;
+
+}
+.campoDeEmail,.campoContra{
+    margin-top: 20px;
+
+}
+input{
+ height:26px;
+ width: 200px;
+ border-radius: 5px;
+ border:solid 0.5px rgb(140, 140, 140)
+ 
+}
+label{
+    margin-top: 5px;
+    transition: color 1s;    
+}
+label:hover{
+    color:#fbbc02;
+}
+.button{
+    width: 200px;
+    margin-left: 100px;
+    margin-top: 15px;
+
+}
+button{
+    border:none;
+    height: 25px;
+    background-color: #3d2068;
+    border-radius: 5px;
+    font-size: 20px;
+    color:white;
+    padding: 10px 10px 30px;
+    transition: background 1s;
+    cursor: pointer;
+}
+button:hover{
+    background: #fbbc02;
+}
+.fantasma{
+    color: black;
+}
